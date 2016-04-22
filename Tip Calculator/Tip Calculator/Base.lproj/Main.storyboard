@@ -59,6 +59,9 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="18" minValue="0.0" maxValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="j09-b4-zsY">
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="valueChanged" id="A6k-u4-Rrz"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSN-AE-csQ">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -109,6 +112,9 @@
                                         <include reference="bag-RH-ItX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="rYm-h9-VY2"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xkZ-RJ-HlM">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
@@ -321,6 +327,7 @@
                     <connections>
                         <outlet property="billAmountLabel" destination="piT-O5-Ob6" id="8ZU-KB-9Ka"/>
                         <outlet property="customTipPercentLabel1" destination="Z3x-uC-S71" id="WSe-u4-UFk"/>
+                        <outlet property="customTipPercentLabel2" destination="nx2-cg-oyv" id="UUK-Cf-hcO"/>
                         <outlet property="customTipPercentageSlider" destination="j09-b4-zsY" id="CLy-Fu-fPC"/>
                         <outlet property="inputTextField" destination="Eji-gi-IdJ" id="zlZ-KT-3jt"/>
                         <outlet property="tip15Label" destination="SzB-ad-9Ho" id="pZA-LY-9jX"/>

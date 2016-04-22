@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var customTipPercentLabel1: UILabel!
     
+    @IBOutlet weak var customTipPercentLabel2: UILabel!
+    
     @IBOutlet weak var customTipPercentageSlider: UISlider!
     
     @IBOutlet weak var tip15Label: UILabel!
@@ -35,7 +37,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
+    @IBAction func calculateTip(sender: AnyObject) {
+    }
 
 }
 
