@@ -72,11 +72,24 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="2mF-f0-Xy4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ls-yR-3dK">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="q3f-bw-RT2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="q3f-bw-RT2"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="q3f-bw-RT2"/>
+                                    </mask>
+                                </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eji-gi-IdJ">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
@@ -131,30 +144,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="OAC-bN-1Bs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="2mF-f0-Xy4">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ls-yR-3dK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="OAC-bN-1Bs">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="q3f-bw-RT2"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="q3f-bw-RT2"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="q3f-bw-RT2"/>
-                                    </mask>
-                                </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -208,13 +208,13 @@
                                 <exclude reference="j09-b4-zsY"/>
                                 <exclude reference="lSN-AE-csQ"/>
                                 <exclude reference="nx2-cg-oyv"/>
-                                <exclude reference="2mF-f0-Xy4"/>
+                                <exclude reference="0ls-yR-3dK"/>
                                 <exclude reference="Eji-gi-IdJ"/>
                                 <exclude reference="xkZ-RJ-HlM"/>
                                 <exclude reference="SzB-ad-9Ho"/>
                                 <exclude reference="ESj-aQ-4Vb"/>
+                                <exclude reference="2mF-f0-Xy4"/>
                                 <exclude reference="OAC-bN-1Bs"/>
-                                <exclude reference="0ls-yR-3dK"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="5BJ-ih-yG2"/>
@@ -267,13 +267,13 @@
                                 <include reference="j09-b4-zsY"/>
                                 <include reference="lSN-AE-csQ"/>
                                 <include reference="nx2-cg-oyv"/>
-                                <include reference="2mF-f0-Xy4"/>
+                                <include reference="0ls-yR-3dK"/>
                                 <include reference="Eji-gi-IdJ"/>
                                 <include reference="xkZ-RJ-HlM"/>
                                 <include reference="SzB-ad-9Ho"/>
                                 <include reference="ESj-aQ-4Vb"/>
+                                <include reference="2mF-f0-Xy4"/>
                                 <include reference="OAC-bN-1Bs"/>
-                                <include reference="0ls-yR-3dK"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="5BJ-ih-yG2"/>
@@ -318,6 +318,16 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="billAmountLabel" destination="piT-O5-Ob6" id="8ZU-KB-9Ka"/>
+                        <outlet property="customTipPercentLabel1" destination="Z3x-uC-S71" id="WSe-u4-UFk"/>
+                        <outlet property="customTipPercentageSlider" destination="j09-b4-zsY" id="CLy-Fu-fPC"/>
+                        <outlet property="inputTextField" destination="Eji-gi-IdJ" id="zlZ-KT-3jt"/>
+                        <outlet property="tip15Label" destination="SzB-ad-9Ho" id="pZA-LY-9jX"/>
+                        <outlet property="tipCustomLabel" destination="2mF-f0-Xy4" id="fft-Ag-N7s"/>
+                        <outlet property="total15Label" destination="ESj-aQ-4Vb" id="egC-e7-X3H"/>
+                        <outlet property="totalCustomLabel" destination="OAC-bN-1Bs" id="roP-bY-U3g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,6 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var billAmountLabel: UILabel!
+    
+    @IBOutlet weak var customTipPercentLabel1: UILabel!
+    
+    @IBOutlet weak var customTipPercentageSlider: UISlider!
+    
+    @IBOutlet weak var tip15Label: UILabel!
+    
+    @IBOutlet weak var total15Label: UILabel!
+    
+    @IBOutlet weak var tipCustomLabel: UILabel!
+    
+    @IBOutlet weak var totalCustomLabel: UILabel!
+    
+    @IBOutlet weak var inputTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
